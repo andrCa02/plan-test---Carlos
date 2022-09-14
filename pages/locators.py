@@ -123,3 +123,7 @@ class action_Locator:
     dropHere = Locator(By.XPATH,"/html/body/div/div[2]/div/div[2]")
     double_click_box = Locator(By.ID,"double-click")
     hold_box = Locator(By.ID,"click-box")
+
+class tableLocator:
+    page = Locator(By.ID,"data-table")
+    text_table = Locator(By.XPATH,"/html/body/div/div[2]/div/table[1]/tbody/tr[2]/td[1]")
