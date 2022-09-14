@@ -127,3 +127,8 @@ class action_Locator:
 class tableLocator:
     page = Locator(By.ID,"data-table")
     text_table = Locator(By.XPATH,"/html/body/div/div[2]/div/table[1]/tbody/tr[2]/td[1]")
+
+class IframeLocator:
+    page = Locator(By.ID,"iframe")
+    Iquadro = Locator(By.XPATH,"/html/body/div[1]/iframe")
+    ourProducts = Locator(By.XPATH,"/html/body/div[1]/div/div/nav/div/ul/li[2]/a")
