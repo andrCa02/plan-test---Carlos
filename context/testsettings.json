@@ -1,0 +1,5 @@
+{
+	"browser": "chrome",
+	"portal_url": "http://webdriveruniversity.com/index.html",
+	"portal_env" : "dev"
+}
